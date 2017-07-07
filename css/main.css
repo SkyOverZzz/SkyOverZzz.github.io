@@ -192,3 +192,37 @@ margin-right: 5px;
 .youtube:hover {
 	background: url(../img/youtube-hover.png);
 }
+@media screen and (min-width: 900px) {
+
+	.contact_us h1 {
+		text-align: center;
+		margin-bottom: 40px;
+	}
+	.messege {
+		width: 830px;
+		margin: 0 auto;
+	}
+	.messege .left, .messege .right {
+		width: 48%
+	}
+	.messege input[type="text"], .messege textarea {
+		width: 100%;
+		padding: 15px 20px;
+		margin-bottom: 30px;
+		box-shadow: none;
+		background: #fff;
+		border-radius: 4px;
+	}
+	.messege input[type="text"] {
+		height: 50px;
+		border: 1px solid #ccc;
+	}
+	.messege textarea {
+		margin-top: -240px;
+		margin-left: 428px;
+		height: 210px;
+		border: none;
+		resize: none;
+	}
+	
+}
