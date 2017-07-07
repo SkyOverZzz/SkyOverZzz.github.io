@@ -19,11 +19,16 @@ p {
 }
 a {
 	color: #f86c37;
+	transition-duration: 0.4s;
 }
-a:hover, a:focus {
+ a:focus {
 	color: #7b7b7b;
 	text-decoration: none;
 	outline: 0;
+}
+.navbar-right a:hover {
+	color: #76c8ff;
+	font-size: 16px;
 }
 hr {
 	display: block;
