@@ -117,12 +117,16 @@
 			<div class="col-lg-12">
 				<form action="*" class="messege">
 					<div class="left">
-						<input type="text" placeholder="Ваше имя">
-						<input type="text" placeholder="Ваш e-mail">
-						<input type="text" placeholder="Заголовок">
+						<input type="hidden" name="project_name" value="Имя" placeholder="Ваше имя">
+						<input type="hidden" name="admin_email" value="skyover@rambler.ru" placeholder="Ваш e-mail">
+						<input type="hidden" name="form_subject" value="Заголовок" placeholder="Заголовок">
+					
+						<input type="text" name="Имя" placeholder="Ваше имя">
+						<input type="text" name="E-Mail" placeholder="Ваш e-mail">
+						<input type="text" name="Заголовок" placeholder="Заголовок">
 					</div>
 					<div class="right">
-						<textarea cols="0" rows="0"  placeholder="Ваше сообщение"></textarea>
+						<textarea name="Сообщение" cols="0" rows="0"  placeholder="Ваше сообщение"></textarea>
 					</div>
 				</form>
 				<input type="submit" value="Отправить" class="button">
@@ -143,6 +147,7 @@
 			</div>	
 			</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="js/mail.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
