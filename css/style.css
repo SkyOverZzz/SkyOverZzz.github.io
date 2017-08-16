@@ -1,4 +1,4 @@
-#slider { /*положение слайдера*/
+g#slider { /*положение слайдера*/
 	text-align: center;
 }
 
@@ -17,6 +17,7 @@
 }
 
 #overflow{ /*сркывает все, что находится за пределами этого блока*/
+	border-radius: 5px;
 	width: 100%;
 	overflow: hidden;
 }
@@ -62,6 +63,7 @@ label, a {
 .all input {
 	display: none;
 }
+
 #switch1:checked ~ #slides .image {
 	margin-left: 0;
 
@@ -82,20 +84,20 @@ label, a {
 	margin-left: -400%;
 }
 #controls {
+	font-size: 0px;
 	margin: -25% 0 0 0;
 	width: 100%;
 	height: 50px;
 }
 #active label {
-	border-radius: 10px;
 	display: inline-block;
+	border-radius: 10px;
 	width: 15px;
 	height: 15px;
 	background: #bbb;
 }
 #active {
 	margin: 16% 0 0;
-	text-align: center;
 }
 #active label:hover {
 	background: #76c8ff;
