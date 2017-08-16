@@ -90,6 +90,10 @@ label, a {
 	height: 50px;
 }
 #active label {
+<<<<<<< HEAD
+=======
+	font-size: 0px;
+>>>>>>> 39f6e47507abc488794f5cad2011bd16746663bb
 	display: inline-block;
 	border-radius: 10px;
 	width: 15px;
