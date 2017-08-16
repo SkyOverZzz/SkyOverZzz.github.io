@@ -90,10 +90,7 @@ label, a {
 	height: 50px;
 }
 #active label {
-<<<<<<< HEAD
 	display: inline-block;
-=======
->>>>>>> f8b991a52857640f262f0ba71dd99e6f277610d7
 	border-radius: 10px;
 	width: 15px;
 	height: 15px;
