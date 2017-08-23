@@ -3,7 +3,7 @@
 body {
    	margin: 0;
 	padding: 0;
-	font: 1em/2em 'ubuntu';
+	font: 1em/02em 'ubuntu';
 	background: #eee;
 	color: #3d3d3d;
 }
@@ -122,4 +122,198 @@ img + .text {
 }
 .pd {
 	padding: 20px;
+}
+.reviews_all{
+	background: #262424;
+	height: 100%;
+}
+.reviews_all h3{
+	padding-top: 40px;
+	margin-bottom: 10px;
+	text-align: center;
+	color: #fff;
+	font-size: 52pt;
+}
+.reviews {
+	margin: 0 auto;
+	width: 1300px;
+	padding-top: 200px;
+}
+.reviews h1 {
+	text-align: center;
+	color: #595959;
+}
+.reviews h2 {text-align: center;
+}
+.reviews_item {
+	float: left;
+	margin-left: 60px;
+}
+.reviews_item:first-child{
+	margin-left: 10;
+}
+.reviews_item1 {
+	width: 270px;
+	height: 360px;
+	background: #fff;
+	border-radius: 5px;
+
+}
+.reviews_item2 {
+	width: 272px;
+	height: 272px;
+	background: #76c8ff;
+	border-radius: 50%;
+	-webkit-box-shadow: 0px 2px 10px 0px rgba(55, 50, 50, 0.75);
+-moz-box-shadow:    0px 2px 10px 0px rgba(55, 50, 50, 0.75);
+box-shadow:         0px 2px 10px 0px rgba(55, 50, 50, 0.75);
+	margin: -475px 0 0 -1px;
+}
+
+.reviews_item2 img {
+	margin: 14.5px;
+}
+/*ABOUT US */
+
+.about_us {
+	background: #fff;
+	height: 100%;
+}
+.about {
+	margin: 0 auto;
+	width: 1200px;
+}
+.about img {margin-top: 100px;}
+.about p {font-size: 48pt; line-height: 60pt}
+
+/*send reviews*/
+
+#contact_us {
+	padding-top: 20px;
+	background: #d9d9d9;
+	padding-bottom: 100px;
+	padding-bottom: 100px;
+}
+#contact_us h1{
+	font-size: 42pt
+}
+.messege {
+		width: 830px;
+		margin: 0 auto;
+}
+.messege .left, .messege .right {
+		width: 48%
+}
+.messege input[type="text"], .messege textarea {
+		width: 100%;
+		padding: 15px 20px;
+		margin-bottom: 30px;
+		box-shadow: none;
+		background: #fff;
+		border-radius: 4px;
+}
+.messege input[type="text"] {
+		height: 50px;
+		border: 1px solid #ccc;
+	}
+.messege textarea {
+		margin-top: -240px;
+		margin-left: 428px;
+		height: 210px;
+		border: none;
+		resize: none;
+	}
+	
+::-webkit-input-placeholder {
+	font: bold 14px/14px Arial, sans-serif;
+	color: #bbb ;
+	text-transform: uppercase;
+}
+::-moz-placeholder {
+	font: bold 14px/14px Arial, sans-serif;
+	color: #bbb;
+	text-transform: uppercase;
+}
+.button {
+	background: #262424;
+    color: #ffffff;
+    border-radius: 3px;
+    width: 240px;
+    display: block;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    transition-duration: 0.4s;
+
+}
+.button:hover {
+	background: #76c8ff;
+	-webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-box-shadow: #959595 0 2px 5px;
+    -moz-box-shadow: #959595 0 2px 5px;
+    border-radius: 3px;
+    box-shadow: #959595 0 2px 5px;
+}
+
+/* footer */
+.footer {
+	padding-top: 10px;
+	width: 100%;
+	background: #262424;
+	color: #fff;
+	padding-bottom: 20px;
+}
+.footer p{
+	padding-top: 20px;
+	margin-left: 40px;
+	font-size: 19px;
+}
+.soc {
+	margin-top: -60px;
+	margin-left: 400px;
+}
+.vk, .twitter, .youtube{
+	margin-right: 40px;
+}
+.vk {
+	display: inline-block;
+    width: 51px;
+    height: 51px;
+    background: url(img/vk.png);
+    transition-duration: 0.4s;
+}
+.vk:hover {
+	background: url(img/vk-hover.png);
+}
+.twitter {
+	display: inline-block;
+	width: 51px;
+	height: 51px;
+	background: url(img/twitter.png);
+	transition-duration: 0.4s;
+}
+.twitter:hover {
+	background: url(img/twitter-hover.png);
+}
+.youtube {
+	display: inline-block;
+	width: 51px;
+	height: 51px;
+	background: url(img/youtube.png);
+	transition-duration: 0.4s;
+}
+.youtube:hover {
+	background: url(img/youtube-hover.png);
+}
+.number {
+	float: right;
+	margin: -100 100 0 0;
+}
+.number p {
+	font-size: 12pt;
+	line-height: 12pt;
 }
