@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro');
+body { 
+	background: #fff;
+	font-family: 'Source Serif Pro', serif;
+    padding: 0;
+    margin: 0;
+    color: #222222;
+}
+p {
+	font-family: 'Source Serif Pro Regular', serif;
+	line-height: 1.2;
+	color: #c5c5c5;
+	text-align: center;
+}
+
+a {
+	transition-duration: 0.4s;
+}
+
+h3 {
+	font-family: 'Source Serif Pro Semiblod', serif;
+	font-size: 28px;
+	letter-spacing: 6px;
+	text-align: center;
+	
+}
+ a:focus {
+	color: #000;
+	text-decoration: none;
+	outline: 0;
+}
+a:hover {
+	color: #000;
+}
+.navbar-right a:hover {
+	color: #000;
+	font-size: 16px;
+}
+.btn {
+	width: 250px;
+	height: 50px;
+	background: #d9c0b6;
+	  margin: auto;
+  position: absolute;
+  left: 0; right: 0;
+}
+hr {
+	height: 0px;
+	border: 0px;
+	margin: 1em 0;
+	padding: 0;
+	color: #adadad;
+}
+.navbar {
+	font-size: 14px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.navbar-inverse {
+	font-family: 'Source Serif Pro', serif;
+
+}
+.header {
+	background: url(../img/bg.png) no-repeat;
+	background-size: cover;
+	height: 100%;
+}
+.header h1 {
+	margin: 0;
+	padding-top: 20%;
+	text-align: center;
+	font-family: 'Source Serif Pro Black', serif;
+	font-size: 70px;
+	letter-spacing: 6px;
+	color: #fff;
+}
+.header h4 {
+	text-align: center;
+	font-family: 'Source Serif Pro Regular', serif;
+	font-size: 28px;
+	color: #fff;
+}
+.header h6 {
+	text-align: center;
+	font-family: 'Source Serif Pro Regular', serif;
+	font-size: 18px;
+	color: #000;
+}
+.Products {
+	margin: 0 auto;
+	width: 75%;
+}
+.Product {
+	float: left;
+	margin: 20px 20px 20px 0;
+}
+.product h3 {font-family: 'Source Serif Pro Regular', serif;
+font-size: 24px;
+letter-spacing: 0;
+line-height: 0;}
+.Product:last-child {margin-right: 0;}
+
+@media (max-width: 767px) {
+  .header h1 {
+	padding-top: 34%;
+	text-align: center;
+	font-family: 'Source Serif Pro Black', serif;
+	font-size: 35px;
+	letter-spacing: 6px;
+	color: #fff;
+}
+	.header h4 {
+	text-align: center;
+	font-family: 'Source Serif Pro Regular', serif;
+	font-size: 16px;
+	color: #fff;
+	}
+		.header h6 {
+	text-align: center;
+	font-family: 'Source Serif Pro Regular', serif;
+	font-size: 18px;
+	color: #000;
+	}
+	.product {float: none;}
+}
+.t_products {
+	margin-top: 40px;
+	background: #fff;
+	text-align: center;
+}
+input {
+	width: 200px;
+	height: 50px;
+	background: #f7f6f6;
+	border: none;
+	padding: 15px 20px;
+	color: #969696;
+}
+#s{
+	margin-left: 10px;
+background: #d9c0b6;
+	border: none;
+	width: 100px;
+	height: 50px;}
+@media (max-width: 1000px) {
+	input {
+		display: none;
+	}
+	#s {
+		display: none;
+	}
+}
+.blog-all {
+
+	padding: 40px 0 40px 0;
+	background: #fafafa;
+}
+.blog {
+	margin: 0 auto;
+	width: 70%;
+}
+
+.left {
+	margin-top: 50px;
+	float: left;
+}
+.left p { 
+	text-align: left;
+}
+
+.right {
+	margin-top: 50px;
+	float: right;
+}
+.right p {text-align: left;}
+.pre-footer {
+	height: 150px;
+	background: #3d2a24;
+}
+.pre-footer p {
+	margin: 0 auto;
+	text-align: left;
+	font-size: 24px;
+	line-height: 1.5;
+}
+.center {
+	padding: 40px 0;
+	margin: 0 auto;
+	width: 70%;
+}
+.pre-footer .right {
+	margin: 0; 
+float: right;
+}
+.first {margin-right: 10px;}
+.footer h5 {font-family: 'Source Serif Pro Regular', serif }
+.footer p {text-align: left;}
+.f-element {
+	float: left;
+	margin-right: 100px;}
+.f-element:last-child {margin: 0;}
+@media (max-width: 1100px) {
+	.f-element {
+	float: left;
+	margin-right: 50px;}
+}
+@media (max-width: 767px) {
+		.f-element {margin: 0;}
+}
